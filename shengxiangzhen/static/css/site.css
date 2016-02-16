@@ -1,0 +1,130 @@
+body { background-image: url(../images/ps_neutral.png); background-repeat: repeat; }
+
+
+.navbar-inner{
+	background-color: #FFD3B5;
+	background-image: none;
+}
+
+
+.footer-inner{
+	background-color: #474747;
+	background-image: none;
+}
+
+.signature{
+	margin-top:5px;
+	font-size:2px;
+}
+
+
+
+.jumbotron {
+position: relative;
+padding: 40px 0;
+color: #fff;
+text-align: center;
+text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+background: #A8E6CE;
+padding-top:50px;
+padding-bottom:1px;
+}
+
+
+.jumbotron:after {
+content: '';
+display: block;
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background: url(../img/bs-docs-masthead-pattern.png) repeat center center;
+opacity: .4;
+}
+
+.subhead {
+text-align: left;
+border-bottom: 1px solid #ddd;
+}
+
+
+.subhead h1{
+	color:#F23A65;
+}
+
+.subhead h2{
+	color:#F23A65;
+	margin-top:20px;
+	margin-left: 400px;
+}
+
+.subhead p{
+	color:#F23A65;
+	margin-left:600px;
+}
+
+
+.topbar {
+padding: 0px 0;
+text-align: center;
+background-color: #f5f5f5;
+border-top: 1px solid #fff;
+border-bottom: 1px solid #ddd;
+}
+
+.categotryButtons {
+margin-left: 0;
+margin-bottom: 0;
+padding-left: 0;
+list-style: none;
+}
+
+
+.categotryButtons li {
+display: inline-block;
+padding: 5px 8px;
+line-height: 1;
+}
+
+.categotryButtons li .brand{
+font-size:20px;
+}
+
+.mainDisplay{
+	margin-top:10px;
+        margin-bottom:20px;
+}
+
+.contact{
+	margin-top:50px;
+}
+
+
+p.copyright{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 5px;
+}
+
+.footer-inner .container{
+	text-align:center;
+}
+
+.thumbnails li{
+    margin-left:20px;
+    margin-top:15px;
+}
+
+.thumbnails li.span3{
+    height:190px;
+}
+
+.thumbnails li p {
+   text-align: center;
+   margin-top:3px;
+}
+
+.footer {
+    margin-top:10px;
+}

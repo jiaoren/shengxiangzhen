@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>{% block title %}嘉鹏{% endblock %} </title>
+                <link rel="icon" type="image/png" href="{{STATIC_URL}}images/logo.png" />
+		<!--<link rel="stylesheet/less" href="{{ STATIC_URL }}twitter-bootstrap/less/bootstrap.less">-->
+		<!--<script src="{{ STATIC_URL }}twitter-bootstrap/js/bootstrap-dropdown.js"></script>-->
+		<!--<script src="{{ STATIC_URL }}less/less.js"></script>-->
+		<link href="{{ STATIC_URL }}bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+		
+		<link rel="stylesheet" href="{{ STATIC_URL }}css/site.css">
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="{{ STATIC_URL}}js/site.js"></script>
+		<meta name="author" content="Huang Xia" />
+                <script type="text/javascript">
+
+                    var _gaq = _gaq || [];
+                    _gaq.push(['_setAccount', 'UA-39956928-1']);
+                    _gaq.push(['_trackPageview']);
+
+                    (function() {
+                       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                     })();
+
+</script>
+		<!-- Date: 2013-03-30 -->
+	</head>
+	<body>
+		<script src="{{ STATIC_URL }}bootstrap/js/bootstrap.min.js"></script>
+		{% block navigation %}{% include "navigation.html" %}{% endblock %}
+		{% block header %}{% endblock %}
+		{% block topbar %}{% endblock %}
+		{% block mainDisplay %}{% endblock %}
+		{% block footer %}{% include "footer.html" %}{% endblock %}
+	</body>
+</html>
+

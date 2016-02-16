@@ -1,0 +1,14 @@
+<div class="row mainDisplay">
+  <div class="container">
+  	<ul class="thumbnails">
+  	  {% for product in products %}
+  	    <li class="span3" category="{{product.productCategory}}">
+  	  	  <div class="thumbnail">
+  	  		  <img src="{{ MEDIA_URL }}/{{ product.productImage}}" alt="" style="height:158px">
+  	  		  <p>{{ product.productDescription}}</p>
+  	  	  </div>
+  	    </li>
+  	  {% endfor %}
+    </ul>
+  </div>
+</div>
